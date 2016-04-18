@@ -184,3 +184,9 @@ h3 {
   overflow: hidden;
   padding-top: .6rem;
 }
+
+footer {
+  background-color: #787878;
+  color: white;
+  padding: 3%;
+}
