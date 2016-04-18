@@ -30,8 +30,8 @@ h1 {
 }
 
 header {
-background-color: #787878;
-text-align: center;
+  background-color: #787878;
+  text-align: center;
 }
 
 li {
@@ -99,10 +99,10 @@ p {
 }
 
 .feat h2 {
-padding: 2.5%;
-padding-top: 1rem;
-margin: 0;
-font-size: 1.3rem;
+  padding: 2.5%;
+  padding-top: 1rem;
+  margin: 0;
+  font-size: 1.3rem;
 }
 
 .feat1 {
@@ -155,13 +155,11 @@ font-size: 1.3rem;
 }
 
 .identity {
-background-color: #787878;
-overflow: hidden;
-margin: 3%;
+  background-color: #787878;
+  overflow: hidden;
+  margin: 3%;
 }
 
-.identity:nth-child(1) {
-  margin-top: 1rem;
 }
 
 .see-through-box {
