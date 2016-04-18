@@ -155,12 +155,19 @@ font-size: 1.3rem;
 }
 
 .identity {
-background-color:
+background-color: #787878;
+overflow: hidden;
+margin: 3%;
+}
+
+.identity:nth-child(1) {
+  margin-top: 1rem;
 }
 
 .see-through-box {
   float: left;
-  background-color: #787878;
+  background-color: rgba(120, 120, 120, .6);
+  margin-top: 3rem;
 }
 
 h3 {
