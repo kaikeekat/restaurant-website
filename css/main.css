@@ -137,22 +137,22 @@ p {
 .text1 {
   position: absolute;
   bottom: 0;
-  width: 30%;
   padding: .3rem;
+  text-align: left;
 }
 
 .text2 {
   position: absolute;
   bottom: 0;
-  width: 30%;
   padding: .3rem;
+  text-align: left;
 }
 
 .text3 {
   position: absolute;
   bottom: 0;
-  width: 30%;
   padding: .3rem;
+  text-align: left;
 }
 
 .feat1 img, .feat2 img, .feat3 img {
@@ -277,7 +277,26 @@ footer p {
     line-height: 1.4;
   }
 
+  h1 {
+    font-size: 2rem;
+  }
 
+  h2 {
+    font-size: 180%;
+  }
+
+  .feat h2 {
+    font-size: 180%;
+  }
+
+  .btn {
+    margin-top: 20%;
+  }
+
+  a {
+    margin: .4rem;
+    padding: 1rem;
+  }
 
 }
 
