@@ -103,6 +103,30 @@ p {
   overflow: hidden;
 }
 
+.feat1 {
+  position: relative;
+  float: left;
+  display: inline-block;
+  width: 30%;
+  margin: 1.25% 1.25% 1.25% 2.5%;
+}
+
+.feat2 {
+  position: relative;
+  float: left;
+  display: inline-block;
+  width: 30%;
+  margin: 1.25% 1.25% 1.25% 1.25%;
+}
+
+.feat3 {
+  position: relative;
+  float: left;
+  display: inline-block;
+  width: 30%;
+  margin: 1.25% 2.5% 1.25% 1.25%;
+}
+
 .feat h2 {
   padding: 2.5%;
   padding-top: 1rem;
@@ -110,28 +134,31 @@ p {
   font-size: 1.3rem;
 }
 
-.feat1 {
-  background-color: #e8e8e8;
-  float: left;
+.text1 {
+  position: absolute;
+  bottom: 0;
   width: 30%;
-  margin: 1.25% 1.25% 1.25% 2.5%;
+  padding: .3rem;
 }
 
-.feat2 {
-  background-color: #e8e8e8;
-  float: left;
+.text2 {
+  position: absolute;
+  bottom: 0;
   width: 30%;
-  margin: 1.25%;
+  padding: .3rem;
 }
 
-.feat3 {
-  background-color: #e8e8e8;
-  float: left;
+.text3 {
+  position: absolute;
+  bottom: 0;
   width: 30%;
-  margin: 1.25% 2.5% 1.25% 1.25%;
+  padding: .3rem;
 }
 
-
+.feat1 img, .feat2 img, .feat3 img {
+  width: 100%;
+  display: block;
+}
 
 .small-button {
   display: inline-block;
@@ -147,6 +174,10 @@ p {
   margin-top: 1rem;
 }
 
+.re-button a {
+  color: black;
+}
+
 .re-button {
   position: relative;
 }
@@ -156,7 +187,7 @@ p {
   position: relative;
 }
 
-.re-button h3{
+.re-button h3 {
   position: absolute;
   bottom: .15rem;
 }
@@ -205,35 +236,69 @@ footer p {
   margin: 0;
 }
 
+.restaurant-information {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
 @media only screen and (min-width: 25em) {
 
+  h1 {
+    display: inline-block;
+    float: left;
+    font-size: 1.3rem;
+    padding-left: .3rem;
+  }
 
+  nav {
+    float: right;
+    display: inline-block;
+    padding-right: .2rem;
+  }
+
+  header {
+    overflow: hidden;
+  }
+
+  .btn {
+    padding: .2rem;
+  }
+
+  a {
+    margin: .1rem;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-html {
-  font-size: 110%;
-  line-height: 1.4;
-}
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+
 
 }
 
 @media only screen and (min-width: 60em) {
 
-html {
-  font-size: 120%;
-  line-height: 1.5;
-}
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+
 
 }
 
 @media only screen and (min-width: 90em) {
 
-html {
-  font-size: 130%;
-  line-height: 1.5;
-}
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+
 
 }
