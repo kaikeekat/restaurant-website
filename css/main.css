@@ -282,7 +282,11 @@ footer p {
   }
 
   h2 {
-    font-size: 180%;
+    font-size: 190%;
+  }
+
+  .call-to-action p {
+    font-size: 1.3rem;
   }
 
   .feat h2 {
@@ -293,9 +297,37 @@ footer p {
     margin-top: 20%;
   }
 
+  .call-to-action .btn, .feat .small-button {
+    font-size: 1rem;
+  }
+
   a {
     margin: .4rem;
     padding: 1rem;
+  }
+
+  .restaurants a {
+    padding: 0;
+  }
+
+  .call-to-action {
+    bottom: 2.4rem;
+    left: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .restaurants h3 {
+    font-size: .8rem;
+    padding: 0;
+  }
+
+  .re-button {
+    display: inline-block;
+    width: 30%;
+    margin: 1.3%;
   }
 
 }
