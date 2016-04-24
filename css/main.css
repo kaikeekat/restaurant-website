@@ -60,6 +60,10 @@ a {
   margin-top: .5rem;
 }
 
+nav a:hover {
+  background-color: black;
+}
+
 .banner img {
   width: 100%;
   display: block;
@@ -176,6 +180,8 @@ p {
 
 h3 {
   font-variant: small-caps;
+  margin: .5rem;
+  margin-left: 0;
 }
 
 .re-button img {
@@ -189,4 +195,45 @@ footer {
   background-color: #787878;
   color: white;
   padding: 3%;
+}
+
+footer img {
+  width: 15%;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+html {
+  font-size: 110%;
+  line-height: 1.4;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+html {
+  font-size: 120%;
+  line-height: 1.5;
+}
+
+}
+
+@media only screen and (min-width: 90em) {
+
+html {
+  font-size: 130%;
+  line-height: 1.5;
+}
+
 }
