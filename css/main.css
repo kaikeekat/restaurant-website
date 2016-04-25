@@ -396,6 +396,30 @@ footer p {
     line-height: 1.5;
   }
 
+  .call-to-action {
+    bottom: 2.4rem;
+    left: 1.7rem;
+  }
 
+  .call-to-action h2 {
+    font-size: 400%;
+  }
+
+  .call-to-action p {
+    font-size: 200%;
+  }
+
+  .restaurants h3 {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+
+  .see-through-box h2 {
+    font-size: 350%;
+  }
+
+  .see-through-box p {
+    font-size: 170%;
+  }
 
 }
